@@ -1,2 +1,13 @@
-contents added
-in new branch
+print("EB Calculator - Units to Amount")
+ebtype=input("Select (a) for domestic or (b) for commercial: ")
+units=int(input("Consumed Units: "))
+if(ebtype=="a" or ebtype=="domestic"):
+        amount=units*2
+        print("Amount for the entered units: ",amount)
+        if(units<=100):
+            print("Less than 100 Units. No need to pay!")
+        else:
+            print("Kindly pay Rs.",amount,"for",units,"units")
+else:
+    amount=units*4
+    print("Amount for the entered units: ",amount)
