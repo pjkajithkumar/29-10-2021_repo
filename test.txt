@@ -5,7 +5,7 @@ if(ebtype=="a" or ebtype=="domestic"):
         amount=units*2
         print("Amount for the entered units: ",amount)
         if(units<=100):
-            print("Less than 100 Units. No need to pay!")
+            print("Less than 100 Units. No need to pay!Thank you...")
         else:
             print("Kindly pay Rs.",amount,"for",units,"units")
 else:
